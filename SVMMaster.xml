@@ -83,19 +83,19 @@
 	<!-- Give Relevant Paths Servers -->
 	<pathsserver>
 		<!-- Root in wich all files/directories will be stored -->
-		<SavePath>/scratch/guenther/DMOSVM/</SavePath>
+		<SavePath>/SavePath/</SavePath>
 
 		<!-- Directory from which most files will be read out -->
-		<ReadPath>/home/guenther/projects/ALMAGAL/</ReadPath>
+		<ReadPath>/ReadPath/</ReadPath>
 
 		<!-- Directory to the database(s) -->
-		<DatabasePath>/home/guenther/projects/ALMAGAL/</DatabasePath>
+		<DatabasePath>/DatabasePath/</DatabasePath>
 
 		<!-- Directory containing the FV files in case one wants to read them out -->
 		<Read_FV_Path>/FVPath/</Read_FV_Path>
 
 		<!-- Directory containing the trained SVM -->
-		<Read_SVM_Path>home/guenther/projects/ALMAGAL/</Read_SVM_Path>
+		<Read_SVM_Path>/SVMPath/</Read_SVM_Path>
 	</pathsserver>
 
 	<!-- Give Relevant Paths Local Machine -->
@@ -130,7 +130,7 @@
 	<!-- Give Relevant Files on a Local Machine -->
 	<fileslocal>
 		<!-- File of the database -->
-		<database_file>Database.csv</database_file>
+		<database_file>Database</database_file>
 
 		<!-- Name of the support vector machine, in case it's read in -->
 		<SVM_file>SVMname</SVM_file>
