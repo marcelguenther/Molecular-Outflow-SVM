@@ -261,4 +261,4 @@ def outflow_analysis(csv_file_path):
         
         plt.show()
         
-outflow_analysis('Squalo_Info.csv')
+outflow_analysis('Cubes-Info.csv')
