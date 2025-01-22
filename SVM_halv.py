@@ -1,10 +1,3 @@
-#dr# -*- coding: iso-8859-1 -*-
-"""
-Created on Mon May 17 11:05:13 2021
-
-@author: Phillip
-"""
-
 ## Machine Learning Packages
 from mlxtend.classifier import EnsembleVoteClassifier
 
