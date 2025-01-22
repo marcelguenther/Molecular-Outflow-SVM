@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Dec  6 18:15:18 2018
-
-@author: Phillip
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
