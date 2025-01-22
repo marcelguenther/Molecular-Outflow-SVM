@@ -1,18 +1,3 @@
-# -*- coding: iso-8859-1 -*-
-'''
-TBD:
-    - better handling of the edges
-'''
-
-"""
-Created on Thu Jun 17 16:39:25 2021
-
-@author: Phillip, Marcel
-"""
-
-##############################################################################
-### Include some packages
-
 ## Import existing packages
 import astropy.io.fits as fits
 from scipy.ndimage import convolve
@@ -219,12 +204,11 @@ def Feature_Extractor(CalcParameters, FILE_CUBE, FILE_MASK="NoMask", i_set=-1):
             
 
             ### Calculate the feature
-         
             ### Feature 1
             feature_1 = DoGarray * np.sqrt(Moment0) * FWHM**2 
 
 
-            ### MinMaxScaler ###
+            ### MinMaxScaler, linear scaling ###
             ### possible to add another value as the maximum to include or exlude more voxels
              
             def minmax_scaler(data):
