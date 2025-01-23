@@ -1,20 +1,3 @@
-# -*- coding: utf-8 -*-
-
-'''
-TBD:
-    - Final plot colorbar color if empty
-    - Ad grid in final plot?
-    - Ad/remove more than one region at once?
-    - Identical top bottom ranges in ad/remove label
-    - Check if one can select more labels than present (ad/rm -h)
-    - Contourf in ad label
-'''
-
-"""
-Created on Fri Mar 19 12:32:13 2021
-
-@author: Phillip
-
 Describtion:
 This is a python tool to identify objects (e.g. molecular outflows) in fits files. It goes
 through all velocity channels and marks all values above a certain sigma level. Connected
