@@ -5,14 +5,6 @@
 # - if len == 3 --> 1st dir, 2nd data, 3rd mask or via keywords
 # - if len >= 4 --> keywords required ("Parent dir", "Cube name", "Mask name")
 
-# To do:
-#  - Weight classes differntly (during bagging)
-#  - Restart mp
-#  - MP exception
-#Created on Thu May 20 12:32:25 2021
-
-#@author: Phillip, Marcel
-
 ## Import existing packages
 import numpy as np
 import xml.etree.ElementTree as ET                                                          ## import xml package
