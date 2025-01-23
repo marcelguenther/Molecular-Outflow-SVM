@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jun  2 16:42:11 2021
-
-@author: Phillip
-"""
-
 import numpy as np
 import pickle as pkl
 
