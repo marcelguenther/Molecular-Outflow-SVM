@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jun 17 17:09:32 2021
-
-@author: Phillip
-"""
-
 import pickle as pkl
 
 
